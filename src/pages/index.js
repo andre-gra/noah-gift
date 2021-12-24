@@ -2,10 +2,9 @@ import * as React from "react"
 import { useRef } from "react";
 import ReactAudioPlayer from 'react-audio-player';
 import "./style.scss"
+import soundfile from "./jingle-bells.mp3"
 
 const IndexPage = () => {
-  const timeEl = useRef(null);
-
   const start = useRef(null);
   const startOverlay = useRef(null);
   const endOverlay = useRef(null);
@@ -66,6 +65,13 @@ const IndexPage = () => {
   return (
     <>
       <main className="room">
+        <ReactAudioPlayer
+          id="audio-player"
+          src={soundfile}
+          loop={true}
+          autoPlay={true}
+          controls
+        />
         <div className="floating-container">
           <section className="obj obj_name_rail">
             <div className="spr spr_name_rail"></div>
@@ -146,13 +152,6 @@ const IndexPage = () => {
           <div className="snowflake">❆</div>
           <div className="snowflake">❄</div>
         </section>
-
-        <ReactAudioPlayer
-          id="audio-player"
-          src="https://opengameart.org/sites/default/files/Christmas%20synths.ogg"
-          loop={true}
-          autoPlay={true}
-        />
       </main>
 
     </>
