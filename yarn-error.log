@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Users\andre\AppData\Local\Volta\tools\image\node\16.10.0\node.exe C:\Users\andre\AppData\Local\Volta\tools\image\yarn\1.22.11\bin\yarn.js add react-audio-player
+
+PATH: 
+  C:\Users\andre\AppData\Local\Volta\tools\image\yarn\1.22.11\bin;C:\Users\andre\AppData\Local\Volta\tools\image\node\16.10.0;C:\Program Files\Volta\;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\andre\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\andre\AppData\Local\Volta\bin;C:\Users\andre\AppData\Local\.meteor/;C:\Users\andre\AppData\Local\Temp\yarn--1635610712653-0.41378086400821124;C:\Users\andre\AppData\Local\Volta\tmp\image\packages\.tmpUwfciE\lib\node_modules\meteor\node_modules\.bin;C:\Users\andre\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Users\andre\AppData\Local\Volta\tmp\image\packages\.tmpUwfciE\bin;C:\Users\andre\AppData\Local\Volta\tools\image\node\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Users\andre\AppData\Local\Volta\tools\image\node\lib\node_modules\npm\bin\node-gyp-bin;C:\Users\andre\AppData\Local\Volta\tools\image\node\16.10.0\node_modules\npm\bin\node-gyp-bin;C:\Users\andre\AppData\Local\Volta\tools\image\yarn\1.22.11\bin;C:\Users\andre\AppData\Local\Volta\tools\image\node\16.10.0;C:\Program Files\Volta\;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\andre\projects\santa\node_modules\lmdb-store\prebuilds\win32-x64\node.abi93.node'
+
+npm manifest: 
+  {
+    "name": "santa",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Santa",
+    "author": "andregra",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "gatsby": "^4.3.0",
+      "gatsby-plugin-sass": "^5.3.0",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "sass": "^1.45.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
